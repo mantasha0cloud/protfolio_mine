@@ -1,0 +1,1057 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Ansari Mantasha - Cloud Computing Trainer</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Portfolio of Ansari Mantasha, Cloud Computing Trainer with expertise in Machine Learning, Deep Learning, and Python">
+    <meta name="keywords" content="Cloud Computing, Machine Learning, Python, Trainer, Ansari Mantasha">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="css/aos.css">
+    <link rel="stylesheet" href="css/ionicons.min.css">
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/icomoon.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Favicon -->
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+
+    <!-- Custom CSS for responsiveness and enhancements -->
+    <style>
+        :root {
+            --primary-color: #2c3e50;
+            --secondary-color: #3498db;
+            --accent-color: #e74c3c;
+            --light-color: #ecf0f1;
+            --dark-color: #1a1a1a;
+            --darker-color: #121212;
+            --success-color: #2ecc71;
+            --text-color: #e0e0e0;
+            --text-secondary: #b0b0b0;
+        }
+
+        /* Base Styles */
+        body {
+            font-family: 'Roboto', sans-serif;
+            line-height: 1.6;
+            color: var(--text-color);
+            background-color: var(--darker-color);
+            overflow-x: hidden;
+        }
+
+        h1, h2, h3, h4, h5, h6 {
+            font-family: 'Poppins', sans-serif;
+            font-weight: 600;
+            color: var(--light-color);
+        }
+
+        a {
+            color: var(--secondary-color);
+            transition: all 0.3s ease;
+        }
+
+        a:hover {
+            color: var(--accent-color);
+            text-decoration: none;
+        }
+
+        .btn {
+            font-family: 'Poppins', sans-serif;
+            font-weight: 500;
+            letter-spacing: 1px;
+            border-radius: 30px;
+            padding: 12px 30px;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .btn-primary {
+            background-color: var(--secondary-color);
+            border-color: var(--secondary-color);
+            color: white;
+        }
+
+        .btn-primary:hover {
+            background-color: #2980b9;
+            border-color: #2980b9;
+        }
+
+        .btn-outline-white {
+            border-color: rgba(255, 255, 255, 0.8);
+            color: rgba(255, 255, 255, 0.8);
+        }
+
+        .btn-outline-white:hover {
+            background-color: rgba(255, 255, 255, 0.2);
+            border-color: rgba(255, 255, 255, 0.8);
+        }
+
+        /* Navigation */
+        .site-navbar-target {
+            background-color: var(--dark-color) !important;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .site-navbar-target .navbar-brand {
+            color: var(--light-color);
+        }
+
+        .site-navbar-target .nav-link {
+            color: var(--text-color);
+            position: relative;
+        }
+
+        .site-navbar-target .nav-link:after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 0;
+            height: 2px;
+            background-color: var(--secondary-color);
+            transition: width 0.3s ease;
+        }
+
+        .site-navbar-target .nav-link:hover:after {
+            width: 100%;
+        }
+
+        .site-navbar-target .nav-link:hover {
+            color: var(--light-color);
+        }
+
+        /* Hero Section */
+        .hero {
+            position: relative;
+            background: linear-gradient(135deg, rgba(46, 204, 113, 0.8) 0%, rgba(52, 152, 219, 0.8) 100%);
+            color: white;
+            padding: 150px 0 100px;
+            overflow: hidden;
+        }
+
+        .hero:before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: url('images/hero-bg.jpg') no-repeat center center/cover;
+            opacity: 0.3;
+            z-index: 0;
+        }
+
+        .hero .container {
+            position: relative;
+            z-index: 1;
+        }
+
+        .slider-text h1 {
+            font-size: 3.5rem;
+            font-weight: 700;
+            margin-bottom: 20px;
+            color: white;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+        }
+
+        .slider-text h1 span {
+            color: var(--accent-color);
+        }
+
+        .slider-text h2 {
+            font-size: 2rem;
+            font-weight: 500;
+            margin-bottom: 30px;
+            color: rgba(255, 255, 255, 0.9);
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+        }
+
+        /* About Section */
+        .ftco-about {
+            background-color: var(--dark-color);
+            padding: 100px 0;
+        }
+
+        .about-info {
+            margin-top: 30px;
+        }
+
+        .about-info li {
+            margin-bottom: 10px;
+            font-size: 1.1rem;
+            color: var(--text-secondary);
+        }
+
+        .about-info span:first-child {
+            font-weight: 600;
+            color: var(--light-color);
+        }
+
+        .counter-wrap {
+            margin-top: 50px;
+        }
+
+        .counter-wrap .number {
+            font-size: 3rem;
+            font-weight: 700;
+            color: var(--secondary-color);
+        }
+
+        /* Resume Section */
+        .ftco-section {
+            padding: 100px 0;
+            background-color: var(--darker-color);
+        }
+
+        .resume-wrap {
+            background: var(--dark-color);
+            border-radius: 10px;
+            padding: 30px;
+            margin-bottom: 30px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .resume-wrap:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
+            border-color: var(--secondary-color);
+        }
+
+        .resume-wrap .date {
+            display: block;
+            font-size: 0.9rem;
+            color: var(--secondary-color);
+            margin-bottom: 10px;
+            font-weight: 600;
+        }
+
+        .resume-wrap h2 {
+            font-size: 1.5rem;
+            margin-bottom: 5px;
+            color: var(--light-color);
+        }
+
+        .resume-wrap .position {
+            display: block;
+            font-size: 1.1rem;
+            color: var(--accent-color);
+            margin-bottom: 15px;
+            font-weight: 500;
+        }
+
+        .resume-wrap p {
+            color: var(--text-secondary);
+        }
+
+        /* Skills Section */
+        .progress-wrap {
+            margin-bottom: 30px;
+        }
+
+        .progress-wrap h3 {
+            font-size: 1.2rem;
+            margin-bottom: 15px;
+            color: var(--light-color);
+        }
+
+        .progress {
+            height: 20px;
+            border-radius: 10px;
+            background-color: rgba(255, 255, 255, 0.1);
+            overflow: hidden;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+
+        .progress-bar {
+            height: 100%;
+            line-height: 20px;
+            color: white;
+            text-align: right;
+            padding-right: 10px;
+            font-weight: 600;
+            font-size: 0.9rem;
+        }
+
+        .color-1 { background-color: #2c3e50; }
+        .color-2 { background-color: #3498db; }
+        .color-3 { background-color: #e74c3c; }
+        .color-4 { background-color: #9b59b6; }
+        .color-5 { background-color: #2ecc71; }
+        .color-6 { background-color: #f1c40f; }
+
+        /* Projects Section */
+        .project {
+            background: var(--dark-color);
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            margin-bottom: 30px;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .project:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
+            border-color: var(--secondary-color);
+        }
+
+        .project img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .project-content {
+            padding: 20px;
+        }
+
+        .project-content h3 {
+            font-size: 1.3rem;
+            margin-bottom: 10px;
+            color: var(--light-color);
+        }
+
+        .project-content p {
+            color: var(--text-secondary);
+            margin-bottom: 15px;
+        }
+
+        /* Certificates Section */
+        .certificate-entry {
+            background: var(--dark-color);
+            border-radius: 10px;
+            padding: 20px;
+            margin: 0 15px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+            text-align: center;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .certificate-entry img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+            margin-bottom: 15px;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .certificate-content h3 {
+            font-size: 1.3rem;
+            margin-bottom: 10px;
+            color: var(--light-color);
+        }
+
+        .certificate-content h3 a {
+            color: var(--light-color);
+        }
+
+        .certificate-content p {
+            color: var(--text-secondary);
+            margin-bottom: 5px;
+        }
+
+        /* Contact Section */
+        .contact-section {
+            background-color: var(--dark-color);
+            padding: 100px 0;
+        }
+
+        .box {
+            background: var(--darker-color);
+            border-radius: 10px;
+            padding: 30px 20px;
+            text-align: center;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            height: 100%;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .box:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
+            border-color: var(--secondary-color);
+        }
+
+        .box .icon {
+            font-size: 2.5rem;
+            color: var(--secondary-color);
+            margin-bottom: 20px;
+        }
+
+        .box h3 {
+            font-size: 1.3rem;
+            margin-bottom: 15px;
+            color: var(--light-color);
+        }
+
+        .box p {
+            margin-bottom: 0;
+            color: var(--text-secondary);
+        }
+
+        .box p a {
+            color: var(--text-secondary);
+        }
+
+        /* Footer */
+        .ftco-footer {
+            background-color: var(--dark-color);
+            color: var(--text-secondary);
+            padding: 50px 0 0;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .ftco-footer p {
+            margin-bottom: 0;
+        }
+
+        .ftco-footer a {
+            color: var(--secondary-color);
+        }
+
+        /* Theme Toggle */
+        .theme-toggle {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            z-index: 1000;
+        }
+
+        .theme-toggle .btn {
+            background-color: var(--dark-color);
+            border-color: var(--secondary-color);
+            color: var(--text-color);
+            border-radius: 50px;
+            padding: 10px 20px;
+        }
+
+        .theme-toggle .btn:hover {
+            background-color: var(--secondary-color);
+            color: white;
+        }
+
+        /* Responsive Adjustments */
+        @media (max-width: 1199.98px) {
+            .slider-text h1 {
+                font-size: 3rem;
+            }
+
+            .slider-text h2 {
+                font-size: 1.8rem;
+            }
+        }
+
+        @media (max-width: 991.98px) {
+            .hero {
+                padding: 120px 0 80px;
+            }
+
+            .slider-text h1 {
+                font-size: 2.5rem;
+            }
+
+            .slider-text h2 {
+                font-size: 1.5rem;
+            }
+
+            .resume-wrap, .progress-wrap {
+                margin-bottom: 20px;
+            }
+        }
+
+        @media (max-width: 767.98px) {
+            .hero {
+                padding: 100px 0 60px;
+            }
+
+            .slider-text h1 {
+                font-size: 2rem;
+            }
+
+            .slider-text h2 {
+                font-size: 1.3rem;
+            }
+
+            .btn {
+                padding: 10px 20px;
+                font-size: 0.9rem;
+            }
+
+            .certificate-entry {
+                margin: 10px;
+                padding: 15px;
+            }
+        }
+
+        @media (max-width: 575.98px) {
+            .hero {
+                padding: 80px 0 40px;
+            }
+
+            .slider-text h1 {
+                font-size: 1.8rem;
+            }
+
+            .slider-text h2 {
+                font-size: 1.1rem;
+            }
+
+            .about-info li {
+                font-size: 1rem;
+            }
+        }
+
+        /* Animation */
+        .ftco-animate {
+            opacity: 0;
+            visibility: hidden;
+        }
+
+        /* Smooth scrolling for anchor links */
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+<body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar ftco-navbar-light site-navbar-target" id="ftco-navbar">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Ansari Mantasha</a>
+            <button class="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="oi oi-menu"></span> Menu
+            </button>
+
+            <div class="collapse navbar-collapse" id="ftco-nav">
+                <ul class="navbar-nav nav ml-auto">
+                    <li class="nav-item"><a href="#home-section" class="nav-link"><span>Home</span></a></li>
+                    <li class="nav-item"><a href="#about-section" class="nav-link"><span>About</span></a></li>
+                    <li class="nav-item"><a href="#resume-section" class="nav-link"><span>Resume</span></a></li>
+                    <li class="nav-item"><a href="#skills-section" class="nav-link"><span>Skills</span></a></li>
+                    <li class="nav-item"><a href="#projects-section" class="nav-link"><span>Projects</span></a></li>
+                    <li class="nav-item"><a href="#certificates-section" class="nav-link"><span>Certificates</span></a></li>
+                    <li class="nav-item"><a href="#contact-section" class="nav-link"><span>Contact</span></a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home-section" class="hero">
+        <div class="home-slider owl-carousel">
+            <div class="slider-item">
+                <div class="overlay"></div>
+                <div class="container">
+                    <div class="row d-md-flex no-gutters slider-text align-items-center justify-content-center" data-scrollax-parent="true">
+                        <div class="col-md-8 text-center ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
+                            <div class="text">
+                                <span class="subheading">Hello!</span>
+                                <h1 class="mb-4 mt-3">I'm <span>Ansari Mantasha</span></h1>
+                                <h2 class="mb-4">A Cloud Computing Trainer</h2>
+                                <p>
+                                    <a href="https://www.linkedin.com/in/roshan-salunke-865425263/" class="btn btn-primary py-3 px-4" target="_blank">LinkedIn</a>
+                                    <a href="https://github.com/roshan9900" class="btn btn-white btn-outline-white py-3 px-4" target="_blank">GitHub</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="ftco-about img ftco-section ftco-no-pb" id="about-section">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-10 col-lg-8 text-center">
+                    <div class="heading-section ftco-animate">
+                        <h1 class="big big-2">About</h1>
+                        <h2 class="mb-4">About Me</h2>
+                        <img src="images/profile.jpg" alt="Ansari Mantasha" class="img-fluid rounded-circle mb-4" style="width: 150px; height: 150px; object-fit: cover;">
+                        <p>I'm Ansari Mantasha, a Cloud Computing enthusiast with a passion for simplifying complex data into practical insights. As a trainer at NetTechIndia, I guide students through Machine Learning, Deep Learning, and data-driven problem-solving. My journey started in stock trading, and today, I'm focused on using data to create real-world solutions.</p>
+                        <ul class="about-info mt-4 px-md-0 px-2 list-unstyled">
+                            <li class="d-flex justify-content-center"><span class="mr-2">Name:</span> <span>Ansari Mantasha</span></li>
+                            <li class="d-flex justify-content-center"><span class="mr-2">Address:</span> <span>Thane, Maharashtra, India</span></li>
+                            <li class="d-flex justify-content-center"><span class="mr-2">Zip code:</span> <span>400603</span></li>
+                            <li class="d-flex justify-content-center"><span class="mr-2">Email:</span> <span>roshansalunke91@gmail.com</span></li>
+                            <li class="d-flex justify-content-center"><span class="mr-2">Phone:</span> <span>+91 9920011295</span></li>
+                        </ul>
+                    </div>
+                    <div class="counter-wrap ftco-animate mt-md-3">
+                        <div class="text">
+                            <p class="mb-4">
+                                <span class="number" data-number="10">0</span>
+                                <span>Projects complete</span>
+                            </p>
+                            <p><a href="#" class="btn btn-primary py-3 px-3">Download CV</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Resume Section -->
+    <section class="ftco-section ftco-no-pb" id="resume-section">
+        <div class="container">
+            <div class="row justify-content-center pb-5">
+                <div class="col-md-10 heading-section text-center ftco-animate">
+                    <h1 class="big big-2">Resume</h1>
+                    <h2 class="mb-4">Resume</h2>
+                    <p>A data-driven professional with experience in mentoring and training students in Cloud Computing concepts.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="resume-wrap ftco-animate">
+                        <span class="date">2023 - Present</span>
+                        <h2>Cloud Computing Trainer</h2>
+                        <span class="position">NetTechIndia</span>
+                        <p class="mt-4">Currently mentoring students in Python, SQL, Machine Learning, and Deep Learning, focusing on practical applications of Cloud Computing.</p>
+                    </div>
+                    <div class="resume-wrap ftco-animate">
+                        <span class="date">2024</span>
+                        <h2>Bachelor of Information Technology</h2>
+                        <span class="position">University of Mumbai</span>
+                        <p class="mt-4">Graduated with a CGPA of 9.35.</p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="resume-wrap ftco-animate">
+                        <span class="date">2023 - 2024</span>
+                        <h2>Cloud Computing Mentor</h2>
+                        <span class="position">CloudyML</span>
+                        <p class="mt-4">Mentored over 1,000 students in advanced topics like Machine Learning, SQL, and Python through live sessions.</p>
+                    </div>
+                    <div class="resume-wrap ftco-animate">
+                        <span class="date">2021 - 2023</span>
+                        <h2>Founder</h2>
+                        <span class="position">Stock Trading Teaching Startup</span>
+                        <p class="mt-4">Launched and managed a startup focused on educating individuals in stock trading strategies, personally training over 50 individuals.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center mt-5">
+                <div class="col-md-6 text-center ftco-animate">
+                    <p><a href="#" class="btn btn-primary py-4 px-5">Download CV</a></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="ftco-section" id="skills-section">
+        <div class="container">
+            <div class="row justify-content-center pb-5">
+                <div class="col-md-12 heading-section text-center ftco-animate">
+                    <h1 class="big big-2">Skills</h1>
+                    <h2 class="mb-4">My Skills</h2>
+                    <p>Combining technical expertise with effective communication to drive results.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 animate-box">
+                    <div class="progress-wrap ftco-animate">
+                        <h3>Python</h3>
+                        <div class="progress">
+                            <div class="progress-bar color-1" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width:90%">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 animate-box">
+                    <div class="progress-wrap ftco-animate">
+                        <h3>SQL</h3>
+                        <div class="progress">
+                            <div class="progress-bar color-2" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width:85%">
+                                <span>85%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 animate-box">
+                    <div class="progress-wrap ftco-animate">
+                        <h3>Machine Learning</h3>
+                        <div class="progress">
+                            <div class="progress-bar color-3" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width:85%">
+                                <span>85%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 animate-box">
+                    <div class="progress-wrap ftco-animate">
+                        <h3>PySpark</h3>
+                        <div class="progress">
+                            <div class="progress-bar color-3" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width:60%">
+                                <span>60%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 animate-box">
+                    <div class="progress-wrap ftco-animate">
+                        <h3>CICD</h3>
+                        <div class="progress">
+                            <div class="progress-bar color-3" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:80%">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 animate-box">
+                    <div class="progress-wrap ftco-animate">
+                        <h3>Deep Learning</h3>
+                        <div class="progress">
+                            <div class="progress-bar color-4" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width:75%">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 animate-box">
+                    <div class="progress-wrap ftco-animate">
+                        <h3>Data Visualization</h3>
+                        <div class="progress">
+                            <div class="progress-bar color-5" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:80%">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 animate-box">
+                    <div class="progress-wrap ftco-animate">
+                        <h3>Statistics</h3>
+                        <div class="progress">
+                            <div class="progress-bar color-6" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width:85%">
+                                <span>85%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="ftco-section ftco-no-pb" id="projects-section">
+        <div class="container">
+            <div class="row justify-content-center pb-5">
+                <div class="col-md-10 heading-section text-center ftco-animate">
+                    <h1 class="big big-2">Projects</h1>
+                    <h2 class="mb-4">My Projects</h2>
+                    <p>Showcasing my work in Cloud Computing, automation, and cloud solutions.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="resume-wrap ftco-animate">
+                        <span class="date">ML Projects</span>
+                        <h2>5</h2>
+                        <p class="mt-4">Machine Learning, MlOps, Regression, Classification</p>
+                    </div>
+                    <div class="row justify-content-center mt-5">
+                        <div class="col-md-6 text-center ftco-animate">
+                            <p><a href="mlprojects.html" class="btn btn-primary py-4 px-5">ML Projects</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="resume-wrap ftco-animate">
+                        <span class="date">DL Projects</span>
+                        <h2>5</h2>
+                        <p class="mt-4">DL, Forecasting, Classification, Regression.</p>
+                    </div>
+                    <div class="row justify-content-center mt-5">
+                        <div class="col-md-6 text-center ftco-animate">
+                            <p><a href="dlprojects.html" class="btn btn-primary py-4 px-5">DL Projects</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certificates Section -->
+    <section class="ftco-section" id="certificates-section">
+        <div class="container">
+            <div class="row justify-content-center mb-5 pb-5">
+                <div class="col-md-7 heading-section text-center ftco-animate">
+                    <h1 class="big big-2">Certificates</h1>
+                    <h2 class="mb-4">My Certificates</h2>
+                    <p>Showcasing my achievements and certifications.</p>
+                </div>
+            </div>
+            <div id="certificatesCarousel" class="carousel slide" data-ride="carousel" data-interval="3000">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="d-flex justify-content-center">
+                            <div class="certificate-entry">
+                                <a href="https://www.kaggle.com/learn/certification/roshansalunke/intermediate-machine-learning" target="_blank">
+                                    <img src="images/Ansari Mantasha - Intermediate Machine Learning.png" alt="Machine Learning Certificate" class="img-fluid mb-3" style="width: 500px; height: auto;">
+                                </a>
+                                <div class="certificate-content text-center">
+                                    <h3><a href="https://www.kaggle.com/learn/certification/roshansalunke/intermediate-machine-learning" target="_blank">Intermediate Machine Learning</a></h3>
+                                    <p>Issued: Aug 24, 2023</p>
+                                    <p><strong>Provider:</strong> Kaggle</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="d-flex justify-content-center">
+                            <div class="certificate-entry">
+                                <a href="https://drive.google.com/file/d/1RpUGJ6MzUp2qrxMbut-8E5QO39n7pdDU/view" target="_blank">
+                                    <img src="images/CloudyML Course Completion Certificate.png" alt="Python Certificate" class="img-fluid mb-3" style="width: 500px; height: auto;">
+                                </a>
+                                <div class="certificate-content text-center">
+                                    <h3><a href="https://drive.google.com/file/d/1RpUGJ6MzUp2qrxMbut-8E5QO39n7pdDU/view" target="_blank">Python</a></h3>
+                                    <p>Issued: Jan 30, 2023</p>
+                                    <p><strong>Provider:</strong> CloudyML</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#certificatesCarousel" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#certificatesCarousel" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="ftco-section contact-section ftco-no-pb" id="contact-section">
+        <div class="container">
+            <div class="row justify-content-center mb-5 pb-3">
+                <div class="col-md-7 heading-section text-center ftco-animate">
+                    <h1 class="big big-2">Contact</h1>
+                    <h2 class="mb-4">Contact Me</h2>
+                    <p>Feel free to reach out for collaborations, questions, or just to connect!</p>
+                </div>
+            </div>
+            <div class="row d-flex contact-info mb-5">
+                <div class="col-md-6 col-lg-3 d-flex ftco-animate">
+                    <div class="align-self-stretch box p-4 text-center">
+                        <div class="icon d-flex align-items-center justify-content-center">
+                            <span class="icon-map-signs"></span>
+                        </div>
+                        <h3 class="mb-4">Address</h3>
+                        <p>Thane, Maharashtra, India</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 d-flex ftco-animate">
+                    <div class="align-self-stretch box p-4 text-center">
+                        <div class="icon d-flex align-items-center justify-content-center">
+                            <span class="icon-phone2"></span>
+                        </div>
+                        <h3 class="mb-4">Contact Number</h3>
+                        <p><a href="tel://+919920011295">+ 91 9920011295</a></p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 d-flex ftco-animate">
+                    <div class="align-self-stretch box p-4 text-center">
+                        <div class="icon d-flex align-items-center justify-content-center">
+                            <span class="icon-paper-plane"></span>
+                        </div>
+                        <h3 class="mb-4">Email Address</h3>
+                        <p><a href="mailto:roshansalunke91@gmail.com">roshansalunke91@gmail.com</a></p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 d-flex ftco-animate">
+                    <div class="align-self-stretch box p-4 text-center">
+                        <div class="icon d-flex align-items-center justify-content-center">
+                            <span class="icon-globe"></span>
+                        </div>
+                        <h3 class="mb-4">LinkedIN</h3>
+                        <p><a href="https://www.linkedin.com/in/roshan-salunke-865425263/">Ansari Mantasha</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-md-8">
+                    <form action="#" method="post" class="ftco-animate">
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-control" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Subject" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea name="" id="" cols="30" rows="7" class="form-control" placeholder="Message" required></textarea>
+                        </div>
+                        <div class="form-group text-center">
+                            <input type="submit" value="Send Message" class="btn btn-primary py-3 px-5">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="ftco-footer ftco-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <p>
+                        Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This portfolio is made with <i class="icon-heart color-danger" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Theme Toggle -->
+    <div class="theme-toggle">
+        <button id="themeToggle" class="btn">Toggle Dark/Light Theme</button>
+    </div>
+
+    <!-- Loader -->
+    <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
+
+    <!-- Scripts -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery-migrate-3.0.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.easing.1.3.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/jquery.stellar.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/aos.js"></script>
+    <script src="js/jquery.animateNumber.min.js"></script>
+    <script src="js/scrollax.min.js"></script>
+    <script src="js/main.js"></script>
+
+    <!-- Additional Scripts for Enhanced Functionality -->
+    <script>
+        // Smooth scrolling for anchor links
+        $(document).ready(function(){
+            // Add smooth scrolling to all links
+            $("a").on('click', function(event) {
+                // Make sure this.hash has a value before overriding default behavior
+                if (this.hash !== "") {
+                    // Prevent default anchor click behavior
+                    event.preventDefault();
+
+                    // Store hash
+                    var hash = this.hash;
+
+                    // Using jQuery's animate() method to add smooth page scroll
+                    // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+                    $('html, body').animate({
+                        scrollTop: $(hash).offset().top
+                    }, 800, function(){
+                        // Add hash (#) to URL when done scrolling (default click behavior)
+                        window.location.hash = hash;
+                    });
+                }
+            });
+
+            // Animate numbers
+            $('.number').each(function () {
+                $(this).prop('Counter',0).animate({
+                    Counter: $(this).text()
+                }, {
+                    duration: 4000,
+                    easing: 'swing',
+                    step: function (now) {
+                        $(this).text(Math.ceil(now));
+                    }
+                });
+            });
+
+            // Initialize AOS
+            AOS.init({
+                duration: 1000,
+                once: true
+            });
+
+            // Theme Toggle
+            $('#themeToggle').click(function() {
+                $('body').toggleClass('light-theme');
+                if ($('body').hasClass('light-theme')) {
+                    localStorage.setItem('theme', 'light');
+                } else {
+                    localStorage.setItem('theme', 'dark');
+                }
+            });
+
+            // Check for saved theme preference
+            if (localStorage.getItem('theme') === 'light') {
+                $('body').addClass('light-theme');
+            }
+        });
+    </script>
+
+    <!-- Light Theme CSS -->
+    <style>
+        body.light-theme {
+            --primary-color: #2c3e50;
+            --secondary-color: #3498db;
+            --accent-color: #e74c3c;
+            --light-color: #ecf0f1;
+            --dark-color: #f8f9fa;
+            --darker-color: #e0e0e0;
+            --success-color: #2ecc71;
+            --text-color: #333;
+            --text-secondary: #666;
+            background-color: var(--darker-color);
+            color: var(--text-color);
+        }
+
+        body.light-theme .hero {
+            background: linear-gradient(135deg, rgba(46, 204, 113, 0.8) 0%, rgba(52, 152, 219, 0.8) 100%);
+        }
+
+        body.light-theme .ftco-section {
+            background-color: var(--darker-color);
+        }
+
+        body.light-theme .resume-wrap,
+        body.light-theme .certificate-entry,
+        body.light-theme .box {
+            background: var(--dark-color);
+            border: 1px solid rgba(0, 0, 0, 0.1);
+        }
+
+        body.light-theme .progress {
+            background-color: rgba(0, 0, 0, 0.1);
+            border: 1px solid rgba(0, 0, 0, 0.2);
+        }
+
+        body.light-theme .ftco-footer {
+            background-color: var(--dark-color);
+            color: var(--text-secondary);
+            border-top: 1px solid rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</body>
+</html>
